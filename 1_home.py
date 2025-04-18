@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 
 st.markdown("# Python Pokedex")
-st.sidebar.markdown("Desenvolvido por Glauber Bronzato")
+st.sidebar.markdown("Desenvolvido por")
+st.sidebar.markdown("**Glauber Bronzato**")
 
 if "data" not in st.session_state:
     df_data = pd.read_csv("dataset/pokemon.csv")
